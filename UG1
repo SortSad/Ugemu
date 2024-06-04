@@ -1,7 +1,7 @@
 getgenv().EquipMacroTroop = true
 getgenv().ImportMacro = "https://cdn.discordapp.com/attachments/797998461735403551/1247286358373044385/FarmV1.txt?ex=665f7971&is=665e27f1&hm=f1dd0e1d48bea171b5ac594ca934cd944087afd2b6d5a399960363fd538ea075&"
 getgenv().Config = {
-	["SelectChapter"] = "Infinite",
+	["SelectChapter"] = "Chapter 1",
 	["AutoSave"] = true,
 	["BlackScreen"] = false,
 	["AutoReturnLobby"] = true,
@@ -10,7 +10,7 @@ getgenv().Config = {
 	["SelectWorld"] = "Windmill Village",
 	["TPLobbyIfPlayer"] = true,
 	["IgnoreMacroTiming"] = true,
-	["SelectMacro"] = "farminV2",
+	["SelectMacro"] = "FarmV1",
 	["AutoJoinChallenge"] = false,
 	["HardMode"] = false,
 	["LeaveSellWave"] = 29,
@@ -28,7 +28,7 @@ getgenv().Config = {
 	["AutoJoinWorld"] = true,
 	["PlayMacro"] = true,
 	["BoostFPS"] = true,
-	["AutoReplay"] = false,
+	["AutoReplay"] = true,
         ["AutoClaimQuest"] = true,
 	["AutoLeave"] = false
 }
