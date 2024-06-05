@@ -1,5 +1,5 @@
 getgenv().EquipMacroTroop = true
-getgenv().ImportMacro = "https://cdn.discordapp.com/attachments/797998461735403551/1247286358373044385/FarmV1.txt?ex=665f7971&is=665e27f1&hm=f1dd0e1d48bea171b5ac594ca934cd944087afd2b6d5a399960363fd538ea075&"
+getgenv().ImportMacro = "https://cdn.discordapp.com/attachments/797998461735403551/1247286358373044385/FarmV1.txt?ex=6660caf1&is=665f7971&hm=cf225e226c43b9e90920060d70cbbb3236d240a4d1ab70b123b68f0a418ece14&"
 getgenv().Config = {
 	["SelectChapter"] = "Chapter 1",
 	["AutoSave"] = true,
@@ -23,7 +23,7 @@ getgenv().Config = {
 		["Star Rift "] = false
 	},
 	["AutoRejoin"] = true,
-	["WebhookURL"] = "https://discord.com/api/webhooks/1245451207024316437/HnzQUc6nd82fiC-GNM7xxEx-yyqgRxGbQOzMYdy3vFhUYcOSeOUGH62Opgy1J92ndC4z",
+	["WebhookURL"] = "https://discord.com/api/webhooks/1247729666257588374/zBJPAFknAE-oIXZcgfgVKZAvaRBYunwnU-jbxJkIpa33vr2lLnEqG1G3_d6UoIGAjqEr",
 	["AutoSell"] = false,
 	["AutoJoinWorld"] = true,
 	["PlayMacro"] = true,
@@ -32,6 +32,6 @@ getgenv().Config = {
         ["AutoClaimQuest"] = true,
 	["AutoLeave"] = false
 }
-getgenv().Key = "k48f8c4280756b81236cae2b"
+_G.Key = ""
 repeat wait() until game:IsLoaded()
 loadstring(game:HttpGet("https://nousigi.com/loader.lua"))()
