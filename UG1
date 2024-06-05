@@ -32,6 +32,6 @@ getgenv().Config = {
         ["AutoClaimQuest"] = true,
 	["AutoLeave"] = false
 }
-_G.Key = ""
+_G.Key = "09789173c052f9a47cf398a971c2231c16262d2bef4515a1cb6d7c276a8580ca09789173c052f9a47cf398a971c2231c16262d2bef4515a1cb6d7c276a8580ca"
 repeat wait() until game:IsLoaded()
 loadstring(game:HttpGet("https://nousigi.com/loader.lua"))()
