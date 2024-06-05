@@ -1,4 +1,4 @@
-_G.Key = "09789173c052f9a47cf398a971c2231c16262d2bef4515a1cb6d7c276a8580ca09789173c052f9a47cf398a971c2231c16262d2bef4515a1cb6d7c276a8580ca"
+
 getgenv().EquipMacroTroop = true
 getgenv().ImportMacro = "https://cdn.discordapp.com/attachments/797998461735403551/1247286358373044385/FarmV1.txt?ex=6660caf1&is=665f7971&hm=cf225e226c43b9e90920060d70cbbb3236d240a4d1ab70b123b68f0a418ece14&"
 getgenv().Config = {
@@ -33,5 +33,6 @@ getgenv().Config = {
         ["AutoClaimQuest"] = true,
 	["AutoLeave"] = false
 }
+getgenv().Key = "09789173c052f9a47cf398a971c2231c16262d2bef4515a1cb6d7c276a8580ca"
 repeat wait() until game:IsLoaded()
 loadstring(game:HttpGet("https://nousigi.com/loader.lua"))()
